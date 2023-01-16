@@ -1,0 +1,19 @@
+.navbar-brand:hover {
+   color: black;
+   transform: scale(1.15);
+   transition-duration: 0.3s;
+}
+
+.nav-item a:hover {
+   color: black;
+   transform: scale(1.1);
+   transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+   .nav-item a:hover {
+      color: black;
+      transform: scale(1.02);
+      transition-duration: 0.3s;
+   }
+}
